@@ -11,7 +11,7 @@ for(int i=0;i<l;i++){
             f=false;
         }
     }
-    if (f){
+    if (f){ 
         break;
     }
 }
