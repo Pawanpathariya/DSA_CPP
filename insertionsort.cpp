@@ -4,7 +4,7 @@ using namespace std;
 void insrt(int arr[],int n){
     for(int i=1;i<n;i++){
         int key=i;
-        while ((key>0 && arr[key-1]>arr[key]))
+        while (key>0 && arr[key-1]>arr[key])
         {
             int temp=arr[key-1];
             arr[key-1]=arr[key];
@@ -25,6 +25,4 @@ cout<<"\nAfter sorting"<<endl;
 for(int i=0;i<s;i++){
 cout<<arr[i]<<" ";
 }
-
-
 }
