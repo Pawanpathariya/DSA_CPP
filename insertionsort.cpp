@@ -15,13 +15,14 @@ void insrt(int arr[],int n){
 }
 int main(){
 int arr[]={3,1,4,2,6};
+int s=sizeof(arr)/sizeof(arr[0]);
 cout<<"Before sorting"<<endl;
-for(int i=0;i<5;i++){
+for(int i=0;i<s;i++){
 cout<<arr[i]<<" ";
 }
-insrt(arr,5);
+insrt(arr,s);
 cout<<"\nAfter sorting"<<endl;
-for(int i=0;i<5;i++){
+for(int i=0;i<s;i++){
 cout<<arr[i]<<" ";
 }
 
