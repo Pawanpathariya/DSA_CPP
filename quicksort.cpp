@@ -18,8 +18,9 @@ do{
         arr[j]=tmp;
     }
 }while(i<j);
-arr[low]=arr[j];
-arr[j]=pv;
+tmp=arr[j];
+arr[j]=arr[low];
+arr[low]=tmp;
 return j;   
 }
 
