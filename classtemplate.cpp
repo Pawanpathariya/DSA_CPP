@@ -27,7 +27,7 @@ template<typename cybrom>
 class course{
     cybrom name;
   public:
-   cybrom input(cybrom n){
+   void input(cybrom n){
       name=n;
   }
 
@@ -36,7 +36,7 @@ cybrom show(){
 }
 };
 int main(){
-course <string>obj;
+course <string> obj;
 obj.input("Pawan");
-cout<<obj.show();
+cout << obj.show();
 }
