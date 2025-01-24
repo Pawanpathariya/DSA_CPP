@@ -33,12 +33,20 @@ cybrom show(){
    }
 
     }bplcout;
+
+
+    namespace newcity{
+        void student(){
+            cout<<"\n student ";
+        }
+    }
 }
 using namespace cybrom;
+using namespace cybrom::newcity;
 int main(){
 // show();
 // good();
-
+student();
 course<string> obj;
 obj.input("Pawan");
 cout<<obj.show();
