@@ -17,7 +17,7 @@ void show(){
 }
 using namespace cybrom;
 int main(){
-cybrom:: course<string> obj;
+course<string> obj;
 obj.input("Pawan");
 obj.show();
 
