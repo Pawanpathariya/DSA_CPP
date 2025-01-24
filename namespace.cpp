@@ -20,37 +20,38 @@ class course{
       name=n;
   }
 
-cybrom show(){
-    return name;
+void show(){
+    cout<<name;
 }
 };
 
 
-    class bplstream{
-   public:
-   void bhopal(){
-    cout<<"\n Bhopal ";
-   }
+//     class bplstream{
+//    public:
+//    void bhopal(){
+//     cout<<"\n Bhopal ";
+//    }
 
-    }bplcout;
+//     }bplcout;
 
 
-    namespace newcity{
-        void student(){
-            cout<<"\n student ";
-        }
-    }
+    // namespace newcity{
+    //     void student(){
+    //         cout<<"\n student ";
+    //     }
+    // }
 }
 using namespace cybrom;
-using namespace cybrom::newcity;
+// using namespace cybrom::newcity;
 int main(){
 // show();
 // good();
-student();
-course<string> obj;
+//student();
+//bplcout.bhopal();
+
+cybrom:: course<string> obj;
 obj.input("Pawan");
-cout<<obj.show();
+obj.show();
 
 
-bplcout.bhopal();
 }
