@@ -14,7 +14,13 @@ int main(){
 //         cout<<b.at(j)<<"\t";
 //     }
 
+array<string,3>str{"gh","hi","hh"};
 for(auto p:b){
+    cout<<p<<"\t";
+}
+
+cout<<"\n";
+for(auto p:str){
     cout<<p<<"\t";
 }
 
