@@ -23,6 +23,12 @@ cout<<"\n";
 for(auto p:str){
     cout<<p<<"\t";
 }
+cout<<endl;
+cout<<"start :"<<str.front()<<"\n";
+cout<<"end :"<<str.back()<<"\n";
+
+
+
 
 
 }
