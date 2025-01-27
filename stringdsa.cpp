@@ -6,4 +6,6 @@ int main(){
 string s="hello";
 s="wello";
 cout<<s<<"\n";
+
+cout<<s.length()<<"\n";
 }
