@@ -23,4 +23,7 @@ if(s==k){
 else{
     cout<<"not palindrome";
 }
+
+
+
 }
