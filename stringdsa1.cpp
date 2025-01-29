@@ -1,3 +1,4 @@
+//for normal char array
 // #include<iostream>
 // using namespace std;
 // int main(){
@@ -13,7 +14,7 @@
 // }
 
 
-
+//for string
 #include<iostream>
 using namespace std;
 #include<string>
