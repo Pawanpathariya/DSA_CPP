@@ -11,7 +11,7 @@ for(int i=0;i<sizes;i++){
     cin>>n;
     v.push_back(n);
 }
-cout<<"Vector is \n";
+cout<<"Result : \n";
 for(auto p:v){
     cout<<p<<" ";
 }
