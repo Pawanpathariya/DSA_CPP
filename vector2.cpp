@@ -16,27 +16,42 @@ cout<<"Result : \n";
 for(auto p:v){
     cout<<p<<" ";
 }
+//then iterator set in begin
+
+// vector<int>::iterator it=v.begin();
+// v.erase(it);
+// cout<<"\nResult after delete : \n";
+// for(auto p:v){
+//     cout<<p<<" ";
+// }
+// v.erase(it+1);
+// cout<<"\nResult after delete : \n";
+// for(auto p:v){
+//     cout<<p<<" ";
+// }
 
 
-vector<int>::iterator it=v.begin();
-v.erase(it);
+
+// cout<<"\nResult after insert : \n";
+// v.insert(it+1,20);
+// for(auto p:v){
+//     cout<<p<<" ";
+// }
+
+
+//then iterator set in end
+ vector<int>::iterator it=v.end();
+v.erase(it-1);
 cout<<"\nResult after delete : \n";
 for(auto p:v){
     cout<<p<<" ";
 }
-v.erase(it+1);
-cout<<"\nResult after delete : \n";
-for(auto p:v){
-    cout<<p<<" ";
-}
 
 
-
+v.insert(it-1,20);
 cout<<"\nResult after insert : \n";
-v.insert(it+1,20);
 for(auto p:v){
     cout<<p<<" ";
 }
-
 
 }
