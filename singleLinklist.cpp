@@ -10,6 +10,15 @@ f1.push_front(3);
 f1.push_front(4);
 f1.push_front(5);
 
+int d;
+cout<<"Enter number you want to delete";
+cin>>d;
+f1.remove(d);
+
+for(auto p:f1){
+    cout<<p<<" ";
+}
+/*
 for(auto p:f1){
     cout<<p<<" ";
 }
@@ -29,5 +38,8 @@ cout<<"\nAfter Insert\n";
 for(auto p:f1){
     cout<<p<<" ";
     }
+
+*/
+
 
 }
