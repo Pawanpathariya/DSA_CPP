@@ -9,9 +9,15 @@ f1.push_front(2);
 f1.push_front(3);
 f1.push_front(4);
 f1.push_front(5);
+
 for(auto p:f1){
     cout<<p<<" ";
 }
+
+
+// for(auto it=f1.begin();it!=f1.end();it++){
+// cout<<*it<<"\t";
+// }
 
 f1.pop_front();
 cout<<"\nAfter Delete\n";
