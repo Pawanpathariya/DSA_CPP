@@ -9,6 +9,7 @@ f1.push_front(3);
 f1.push_front(4);
 f1.push_front(1);
 f1.push_front(2);
+
 for(auto p:f1){
     cout<<p<<" ";
 }
