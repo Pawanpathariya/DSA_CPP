@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 #include<forward_list>
-//singlle linklist
+//singlle linklist and forward list 
 int main(){
 forward_list<int>f1;
 f1.push_front(1);
