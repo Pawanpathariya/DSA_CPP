@@ -4,6 +4,7 @@ using namespace std;
 #include<forward_list>
 void uni(vector<int> &v){
 forward_list<int>f;
+vector<int>vt;
 for(int i=0;i<v.size();i++){
     f.push_front(v[i]);
 }
@@ -12,6 +13,17 @@ f.sort();
 f.unique();
 
 for(auto p:f){
+    cout<<p<<" ";
+}
+
+
+ for(auto it=f.begin();it!=f.end();it++){
+vt.push_back(*it);
+}
+
+
+cout<<"\nvector\n";
+for(auto p:vt){
     cout<<p<<" ";
 }
 
