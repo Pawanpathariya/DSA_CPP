@@ -34,6 +34,8 @@ int main(){
 int num;
 cout<<"Enter the number : ";
 cin>>num;
+
+//forwardlistname.remove_if([if we want use static value in lamda function we right name there](parameter){return condition;}););
     f1.remove_if([num](int n) { return n > num; });
 
     for(auto p : f1){
