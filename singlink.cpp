@@ -23,7 +23,7 @@
 // }
 
 
-//lemda function :- 
+//lemda function :- the function which has no name is called lamda function
 
 #include <iostream>
 using namespace std;
@@ -31,8 +31,10 @@ using namespace std;
 int main(){
 
     forward_list<int>f1{3,5,6,4,10,15,16,14};
-
-    f1.remove_if([](int n) { return n > 5; });
+int num;
+cout<<"Enter the number : ";
+cin>>num;
+    f1.remove_if([num](int n) { return n > num; });
 
     for(auto p : f1){
         cout << p << " ";
