@@ -12,7 +12,7 @@ int main(){
 // s.pop();
 // cout<<"\nstack is empty or not "<<s.empty();
 
-//it has four function push(),pop(),top(),empty
+//it has four function push(),pop(),top(),empty()
 
 stack<int>st;
 st.push(1);
