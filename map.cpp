@@ -7,5 +7,10 @@
 using namespace std;
 int main(){
     map<int,string> m;
-    
+    m.insert({2,"Sumit"});
+    m.insert({1,"Pawan"});
+    m.insert({3,"Rahul"});
+for(auto p:m){
+    cout<<p.first<<" "<<p.second<<"\n";
+}
 }
