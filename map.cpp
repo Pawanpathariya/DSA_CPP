@@ -29,4 +29,9 @@ m={{1,"pawan"},{2,"sumit"},{3,"rahul"}};
 for(auto p:m){
     cout<<p.first<<" "<<p.second<<"\n";
 }
+cout<<endl;
+m.erase(2);
+for(auto p:m){
+    cout<<p.first<<" "<<p.second<<"\n";
+}
 }
