@@ -42,14 +42,30 @@ using namespace std;
 #include<vector>
 int main(){
 map<string,vector<int>>mp;
-mp["pawan"].push_back(1234);
-mp["pawan"].push_back(2345);
-mp["pawan"].push_back(3456);
-mp["sumit"].push_back(4567);
-mp["sumit"].push_back(5698);
-mp["Rahul"].push_back(6789);
+// mp["pawan"].push_back(1234);
+// mp["pawan"].push_back(2345);
+// mp["pawan"].push_back(3456);
+// mp["sumit"].push_back(4567);
+// mp["sumit"].push_back(5698);
+// mp["Rahul"].push_back(6789);
 
 
+int n,mob;
+string name;
+cout<<"Enter how many records you want to enter ";
+cin>>n;
+for(int i=0;i<n;i++){
+cout<<"Enter name ";
+cin>>name;
+int t;
+cout<<"Enter how many numbers you want to enter ";
+cin>>t;
+for(int j=0;j<t;j++){
+cout<<"Enter number ";
+cin>>mob;
+mp[name].push_back(mob);
+}
+}
 for(auto p:mp){
     cout<<p.first<<" ";
     for(auto q:p.second){
