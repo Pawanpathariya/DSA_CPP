@@ -1,4 +1,4 @@
-//set it only store unique value and it store in sorted order
+//set it only store unique value and it store in sorted order it work only for one value
 //it has 3 type 1)Ordered set 2)Unordered set 3)Multiset
 #include<iostream>
 using namespace std;
