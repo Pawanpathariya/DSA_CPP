@@ -6,7 +6,7 @@ using namespace std;
 
 bool isPangram(string& str) {
     unordered_set<char> alphabet;
-    for (const char& c : str) {
+    for ( auto c : str) {
         if (isalpha(c)) { 
             alphabet.insert(tolower(c)); 
         }
