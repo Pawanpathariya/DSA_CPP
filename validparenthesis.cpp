@@ -2,7 +2,7 @@
 #include<iostream>
 #include<stack>
 using namespace std;
-
+ 
 bool valid(string s) {
     stack<char> st;
     for (char c : s) {
