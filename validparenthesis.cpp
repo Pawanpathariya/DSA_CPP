@@ -3,7 +3,7 @@
 #include<stack>
 using namespace std;
  
-bool valid(string s) {
+bool valid(string s) { 
     stack<char> st;
     for (char c : s) {
         if (c == '[' || c == '{' || c == '(') {
