@@ -14,7 +14,7 @@ bool valid(string s) {
             }
             st.pop();
         }
-    } 
+    }  
     return st.empty();
 }
 
