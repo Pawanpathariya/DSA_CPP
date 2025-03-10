@@ -17,7 +17,7 @@ bool valid(string s) {
     }  
     return st.empty();
 }
-
+ 
 int main() {
     string s = "[{}]";
     cout << (valid(s) ? "true" : "false");
